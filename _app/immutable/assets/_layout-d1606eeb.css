@@ -1,0 +1,804 @@
+@import"https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap";
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #171e30;
+    color: #f3fafff2
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Archivo, sans-serif;
+    font-weight: 700;
+    margin: 0
+}
+
+p {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: #f3fafff2
+}
+
+* {
+    box-sizing: border-box
+}
+
+hr {
+    opacity: .1
+}
+
+.hero-video {
+    width: 50%
+}
+
+.hero-video .preview-image {
+    box-shadow: #32325d40 0 50px 100px -20px, #0000004d 0 30px 60px -30px;
+    background-image: url(../../../hero-video-preview.webp);
+    background-size: cover;
+    background-position: center;
+    width: 567px;
+    height: 295px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto
+}
+
+.hero-video .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000000b6;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hero-video .circle i {
+    margin-left: 10px
+}
+
+button {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit
+}
+
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.nav-discord-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1a91ff;
+    padding: 19px 0
+}
+
+.nav-discord-banner .megaphone {
+    width: 24px
+}
+
+.nav-discord-banner p {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.nav-discord-banner a {
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    width: 100px;
+    display: block;
+    text-align: left
+}
+
+.nav-discord-banner a:hover img {
+    margin-left: 10px
+}
+
+.nav-discord-banner a img {
+    margin-left: 5px;
+    transition: .2s ease-in-out
+}
+
+.navbar {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.navbar .navbar-items a {
+    margin-left: 60px
+}
+
+.navbar .navbar-items .active {
+    color: #1991ff
+}
+
+.primary-btn {
+    background-color: #1991ff;
+    padding: 14px 40px;
+    border-radius: 2px;
+    display: inline-block
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        flex-direction: column
+    }
+}
+
+.hero .content {
+    width: 50%
+}
+
+.hero h1 {
+    font-size: 65px
+}
+
+.hero p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #f3faffd9
+}
+
+img {
+    max-width: 100%
+}
+
+.section-1 {
+    margin-top: 240px
+}
+
+.section-1 h1 {
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.section-1 p {
+    text-align: center;
+    margin-bottom: 100px
+}
+
+.section-1 .section-1-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px
+}
+
+.section-1 .section-1-item h2 {
+    font-size: 65px;
+    text-align: right
+}
+
+.section-1 .section-1-item p {
+    text-align: right;
+    margin: 15px 0;
+    max-width: 520px;
+    color: #f3faffd9
+}
+
+.section-1 .section-1-item .item-change {
+    font-size: 35px;
+    float: right
+}
+
+.section-1 .section-1-item span {
+    font-size: 35px
+}
+
+.section-1 .section-1-item .accent-colour {
+    color: #1991ff;
+    font-weight: 500
+}
+
+.section-1 .section-1-item .content {
+    width: 50%;
+    padding-right: 126px
+}
+
+.section-1 .section-1-item .image {
+    width: auto
+}
+
+.section-1 .reverse h2,
+.section-1 .reverse p {
+    text-align: left
+}
+
+.section-1 .reverse .item-change {
+    float: left
+}
+
+.why-atlas h1 {
+    font-size: 60px;
+    margin-bottom: 80px
+}
+
+.why-atlas h2 {
+    font-size: 40px
+}
+
+.why-atlas .why-atlas-item {
+    display: flex;
+    align-items: center;
+    width: 50%
+}
+
+.why-atlas .why-atlas-item .content p {
+    color: #f3faffd9
+}
+
+.why-atlas .why-atlas-item .icon {
+    width: 120px
+}
+
+.why-atlas .why-atlas-item .icon i {
+    font-size: 100px
+}
+
+.why-atlas .item-wrapper {
+    display: flex;
+    margin-bottom: 90px;
+    gap: 50px
+}
+
+.why-atlas .content {
+    margin-left: 40px
+}
+
+.why-atlas .content h2 {
+    margin-bottom: 15px
+}
+
+.why-atlas .content p {
+    max-width: 370px
+}
+
+.download-banner {
+    background-color: #1f273b
+}
+
+.download-banner h1 {
+    font-size: 54px;
+    margin-bottom: 5px;
+    font-weight: 600
+}
+
+.download-banner p {
+    font-size: 22px
+}
+
+.download-banner .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin-bottom: 200px
+}
+
+.community-section {
+    margin-top: 200px;
+    text-align: center
+}
+
+.community-section h1 {
+    font-size: 75px;
+    margin-bottom: 20px
+}
+
+.community-section p {
+    max-width: 60%;
+    margin: 0 auto 30px;
+    color: #f3faffd9
+}
+
+.community-section a {
+    margin-bottom: 200px
+}
+
+.footer {
+    background-color: #1f273c;
+    padding: 40px 0
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.footer-items .logo {
+    max-width: 78px
+}
+
+.footer-items>div {
+    width: 33.33%
+}
+
+.footer-items .emoji {
+    text-align: right;
+    width: auto
+}
+
+.footer-items .icon {
+    padding: 12px;
+    background-color: #3d465c;
+    border-radius: 6px
+}
+
+.footer-items .icon-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.footer-items .icon-wrapper-center {
+    display: flex;
+    gap: 20px
+}
+
+.downloads-title {
+    margin-top: 200px;
+    margin-bottom: 70px;
+    text-align: center
+}
+
+.downloads-title h1 {
+    font-size: 75px;
+    margin-bottom: 10px
+}
+
+.downloads-title p {
+    margin-bottom: 100px
+}
+
+.downloads-title a {
+    color: #1991ff
+}
+
+.downloads-item-special {
+    outline: #1991ff solid 2px
+}
+
+.downloads-item {
+    background-color: #1f273b;
+    border-radius: 2px;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: left;
+    width: 100%
+}
+
+.downloads-item .counter-text {
+    display: flex;
+    gap: 10px;
+    color: #f3faffb3
+}
+
+.downloads-item h2 {
+    font-size: 40px;
+    margin-bottom: 10px
+}
+
+.downloads-item p {
+    width: 55%;
+    margin-bottom: 15px
+}
+
+.changelog-text {
+    color: #f3faffb3;
+    display: inline-block;
+    margin: 0 auto 200px
+}
+
+.how-to-install h1 {
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 50px
+}
+
+.how-to-install .preview-image {
+    box-shadow: #32325d40 0 50px 100px -20px, #0000004d 0 30px 60px -30px;
+    background-image: url(../../../how-to-install-preview.webp);
+    background-size: cover;
+    background-position: center;
+    width: 978px;
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.how-to-install .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #00000050;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.how-to-install .circle i {
+    margin-left: 10px
+}
+
+.starting-title {
+    margin-top: 100px;
+    font-size: 65px;
+    margin-bottom: 70px
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 10px
+}
+
+.content-wrapper .video {
+    margin-left: auto;
+    box-shadow: #32325d40 0 50px 100px -20px, #0000004d 0 30px 60px -30px
+}
+
+.content-wrapper .video .lite-youtube {
+    width: 530px;
+    aspect-ratio: 16/9
+}
+
+.content-wrapper .starting-content .download-steps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px
+}
+
+.content-wrapper .starting-content a {
+    color: #1991ff
+}
+
+.content-wrapper .starting-content .click-here-text {
+    margin-left: 153px
+}
+
+.content-wrapper .starting-content .download-steps-content {
+    margin-left: 30px;
+    width: min(447px, 100%)
+}
+
+.content-wrapper .starting-content .download-steps-content h2 {
+    font-size: 26px;
+    margin-bottom: 10px
+}
+
+.changelog-title {
+    margin-top: 200px;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 200px
+}
+
+.changelog-title span {
+    color: #1991ff
+}
+
+.md-content {
+    margin-bottom: 200px
+}
+
+.md-content li {
+    color: #f3faffd9
+}
+
+.md-content h1 {
+    color: #1991ff
+}
+
+.changelog-item {
+    background-color: #1f273b;
+    padding: 50px 45px;
+    display: block;
+    margin-bottom: 30px
+}
+
+.changelog-item .item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.changelog-item .item-wrapper .name {
+    font-size: 35px;
+    font-weight: 700
+}
+
+.changelog-item .item-wrapper .view {
+    font-size: 20px
+}
+
+.last-item {
+    margin-bottom: 200px
+}
+
+.changelog-btn-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.atlas-vpn-promo-banner-downloads {
+    width: 700px;
+    margin: 50px auto;
+    max-width: 100%
+}
+
+@media screen and (max-width:1100px) {
+    .navbar-items a {
+        margin-left: 40px !important
+    }
+    .community-section p {
+        max-width: 100%
+    }
+    .why-atlas {
+        text-align: center
+    }
+    .why-atlas .item-wrapper {
+        gap: 80px;
+        align-items: center;
+        flex-direction: column
+    }
+    .why-atlas .content {
+        margin-left: 0
+    }
+    .why-atlas .why-atlas-item {
+        flex-direction: column;
+        width: 100%
+    }
+    .why-atlas .why-atlas-item h2 {
+        font-size: 35px !important
+    }
+    .why-atlas .why-atlas-item .icon {
+        margin-bottom: 10px
+    }
+    .download-steps {
+        flex-direction: column;
+        text-align: center
+    }
+    .download-steps .download-steps-content {
+        margin-left: 0 !important;
+        margin-top: 20px
+    }
+    .hero-video {
+        display: none !important;
+        width: 0
+    }
+    .download-banner {
+        display: none
+    }
+    .section-1 {
+        text-align: center
+    }
+    .section-1 .section-1-item .image {
+        display: none
+    }
+    .navbar-items-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+        margin-bottom: 200px
+    }
+    h1 {
+        font-size: 60px !important
+    }
+    h2 {
+        font-size: 45px !important
+    }
+    p {
+        font-size: 18px !important
+    }
+    .section-1 .section-1-item {
+        justify-content: flex-end
+    }
+    .section-1 .section-1-item.reverse {
+        justify-content: flex-start
+    }
+    .mb-primary-btn {
+        background-color: #1991ff;
+        padding: 14px 40px;
+        border-radius: 2px;
+        display: inline-block
+    }
+    .downloads-item p {
+        width: 100%
+    }
+    .how-to-install {
+        display: none
+    }
+    .changelog-text {
+        margin-bottom: 0
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .community-section a {
+        margin-bottom: 100px
+    }
+    .content-wrapper .video {
+        display: none
+    }
+    .community-section {
+        margin-top: 100px
+    }
+    .navbar {
+        margin-top: 30px
+    }
+    .hero {
+        margin-top: 100px;
+        margin-bottom: 100px
+    }
+    .section-1 {
+        margin-top: 100px
+    }
+    .hero .content {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        font-size: 22px
+    }
+    .download-steps h2 {
+        font-size: 30px !important
+    }
+    .click-here-text {
+        margin-left: 0 !important;
+        text-align: center
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .why-atlas .item-wrapper {
+        flex-direction: row
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .hero .content {
+        width: 100%;
+        max-width: 800px
+    }
+    .hero .hero-video {
+        display: none !important
+    }
+}
+
+.mb-navbar-items {
+    display: none
+}
+
+@media screen and (max-width:500px) {
+    h1 {
+        font-size: 40px !important
+    }
+    h2 {
+        font-size: 30px !important
+    }
+    p,
+    a {
+        font-size: 16px !important
+    }
+    .navbar img {
+        width: 200px
+    }
+    .hero .content h1 {
+        font-size: 32px !important
+    }
+    .hero .content p {
+        font-size: 16px !important
+    }
+}
+
+@media screen and (max-width:912px) {
+    .navbar-items {
+        display: none
+    }
+    .mb-footer {
+        padding: 30px 0
+    }
+    .mb-navbar-items {
+        display: block
+    }
+    .nav-discord-banner {
+        display: none
+    }
+    .mb-primary-btn {
+        background-color: #1991ff;
+        padding: 14px 0;
+        border-radius: 2px;
+        display: block !important;
+        text-align: center
+    }
+}
+
+.mb-navbar-items i {
+    font-size: 30px;
+    cursor: pointer
+}
+
+.mb-expand {
+    display: none;
+    padding: 20px 0
+}
+
+.mb-expand.active {
+    display: block
+}
+
+.mb-expand .active {
+    color: #1991ff
+}
+
+.mb-expand a {
+    display: block;
+    padding: 20px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000
+}
+
+.modal .modal-body {
+    aspect-ratio: 16/9;
+    width: 720px;
+    max-width: 100%;
+    padding: 0 10px
+}
+
+.modal.active {
+    display: flex
+}
